@@ -26717,7 +26717,7 @@ video {
 }
 
 .container {
-  border: 2px solid silver;
+  box-shadow: 3px 2px #3e3f40, 6px 5px 1px #aeb0b3, -2px 5px 3px #bfc1c3, -6px -3px 3px #5d5d5d, 4px -3px 3px #9c9c9c;
   border-radius: 29px;
   max-width: 375px;
   margin: 0 auto;
