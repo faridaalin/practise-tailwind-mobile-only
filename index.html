@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./feather.min.js"></script>
+  <title>Tailwind CSS</title>
+</head>
+
+<body class="bg-black">
+  <div class="container relative mx-auto px-4">
+    <h1 class="text-4xl text-white mt-2">Search</h1>
+    <form class="w-full max-w-sm my-4">
+      <div class="relative">
+        <input class="w-full bg-gray-200 rounded py-2 pl-10 placeholder-black" type="search" name="search" id="search"
+          placeholder="Artist, songs, or podcats">
+        <svg class="icon absolute h-4 w-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512.005 512.005">
+          <path
+            d="M508.885 493.784L353.109 338.008c32.341-35.925 52.224-83.285 52.224-135.339C405.333 90.925 314.41.002 202.666.002S0 90.925 0 202.669s90.923 202.667 202.667 202.667c52.053 0 99.413-19.883 135.339-52.245l155.776 155.776a10.645 10.645 0 007.552 3.136c2.731 0 5.461-1.045 7.552-3.115a10.7 10.7 0 00-.001-15.104zM202.667 384.003c-99.989 0-181.333-81.344-181.333-181.333S102.677 21.336 202.667 21.336 384 102.68 384 202.669s-81.344 181.334-181.333 181.334z" />
+        </svg>
+      </div>
+    </form>
+
+    <h4 class="text-white mt-2 mb-4">Browse all</h4>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img3.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Podcasts</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img9.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">New Releases</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img5.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Charts</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img18.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Concerts</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img17.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Made for You</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img14.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">At Home</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img13.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Higher</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img10.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Pop</h3>
+      </div>
+      <div class="relative bg-cover bg-center bg-no-repeat  pb-4/6 rounded"
+        style="background-image: url(./img//cards/img10.png)">
+        <h3 class="absolute h-full w-full text-white pl-1 pt-1">Pop</h3>
+      </div>
+
+    </div>
+    <div class="menu absolute bottom-0 left-0 right-0 bg-black h-40 shadow-md">
+      <div class="grid-nav grid grid-cols-9 gap-2 h-20 border-b-2 border-gray-900">
+          <div class="col-span-2 bg-cover bg-center bg-no-repeat pb-2/4" style="background-image: url(./img//cards/img3.png)">
+          </div>
+          <div class="col-span-5 flex flex-col justify-center">
+            <h4 class="text-gray-300 text-xs">Nocturne in E-Flat Major, Opt. 9, No.2</h4>
+            <p class=" text-gray-500 ">Fredric Chopin</p>
+          </div>
+
+        <i class="col-span-1" data-feather="pause"></i>
+        <i class="col-span-1" data-feather="airplay"></i>
+      </div>
+
+      <div class="grid grid-cols-4 gap-2 text-center h-20">
+        <i class="" data-feather="home"></i>
+        <i class="" data-feather="search"></i>
+        <i class="" data-feather="book"></i>
+        <i class="" data-feather="activity"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    feather.replace()
+
+  </script>
+</body>
+
+</html>
